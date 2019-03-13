@@ -1,0 +1,265 @@
+
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. Starting Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans include/init.inc.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Appel de ***************************** editprofile.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans getPDO() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Connexion!! return : PDO Object = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Retour dans ajax/chgpwd.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Objet PDO créé avec succes, $pdo = PDO Object
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$_SESSION['user'] = Array
+(
+    [id] => 1
+    [pseudo] => jcr972
+    [nom] => Rangon
+    [prenom] => Jean-Christophe
+    [email] => jc.rangon@gmail.com
+    [date_de_naissance] => 1852-07-17
+    [photo] => default.jpg
+    [status] => 1
+    [role] => 1
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">vérification des données entrantes $_GET & $_POST = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pas de données entrantes $_GET = Array
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function cleanIncomingData() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Nettoyage des données entrantes $_POST = Array
+(
+    [pseudo] => jcr972
+    [nom] => Rangone
+    [prenom] => Jean-Christophe
+    [dob] => 1852-07-17
+    [email] => jc.rangon@gmail.com
+    [photoact] => default.jpg
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du nom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du prénom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function isForbiddenEmail() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$ext = gmail</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">isforbidden? = FALSE</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de la date de naissance = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pwd = Silverfish@911jcr972</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">destruction de l'objet PDO = </span>
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. End of Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. Starting Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans include/init.inc.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Appel de ***************************** editprofile.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans getPDO() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Connexion!! return : PDO Object = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Retour dans ajax/chgpwd.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Objet PDO créé avec succes, $pdo = PDO Object
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$_SESSION['user'] = Array
+(
+    [id] => 1
+    [pseudo] => jcr972
+    [nom] => Rangone
+    [prenom] => Jean-Christophe
+    [email] => jc.rangon@gmail.com
+    [date_de_naissance] => 1852-07-17
+    [photo] => default.jpg
+    [status] => 1
+    [role] => 1
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">vérification des données entrantes $_GET & $_POST = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pas de données entrantes $_GET = Array
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function cleanIncomingData() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Nettoyage des données entrantes $_POST = Array
+(
+    [pseudo] => jcr972
+    [nom] => Rangon
+    [prenom] => Jean-Christophe
+    [dob] => 1852-07-17
+    [email] => jc.rangon@gmail.com
+    [photoact] => default.jpg
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du nom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du prénom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function isForbiddenEmail() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$ext = gmail</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">isforbidden? = FALSE</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de la date de naissance = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pwd = Silverfish@911jcr972</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">destruction de l'objet PDO = </span>
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. End of Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. Starting Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans include/init.inc.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Appel de ***************************** editprofile.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans getPDO() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Connexion!! return : PDO Object = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Retour dans ajax/chgpwd.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Objet PDO créé avec succes, $pdo = PDO Object
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$_SESSION['user'] = Array
+(
+    [id] => 1
+    [pseudo] => jcr972
+    [nom] => Rangon
+    [prenom] => Jean-Christophe
+    [email] => jc.rangon@gmail.com
+    [date_de_naissance] => 1852-07-17
+    [photo] => default.jpg
+    [status] => 1
+    [role] => 1
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">vérification des données entrantes $_GET & $_POST = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pas de données entrantes $_GET = Array
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function cleanIncomingData() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Nettoyage des données entrantes $_POST = Array
+(
+    [pseudo] => jcr972
+    [nom] => Rangon
+    [prenom] => Jean-Christophe
+    [dob] => 1974-07-17
+    [email] => jc.rangon@gmail.com
+    [photoact] => default.jpg
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du nom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du prénom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function isForbiddenEmail() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$ext = gmail</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">isforbidden? = FALSE</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de la date de naissance = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pwd = Silverfish@911jcr972</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">destruction de l'objet PDO = </span>
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. End of Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. Starting Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans include/init.inc.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Appel de ***************************** editprofile.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans getPDO() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Connexion!! return : PDO Object = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Retour dans ajax/chgpwd.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Objet PDO créé avec succes, $pdo = PDO Object
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$_SESSION['user'] = Array
+(
+    [id] => 1
+    [pseudo] => jcr972
+    [nom] => Rangon
+    [prenom] => Jean-Christophe
+    [email] => jc.rangon@gmail.com
+    [date_de_naissance] => 1974-07-17
+    [photo] => default.jpg
+    [status] => 1
+    [role] => 1
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">vérification des données entrantes $_GET & $_POST = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pas de données entrantes $_GET = Array
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function cleanIncomingData() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Nettoyage des données entrantes $_POST = Array
+(
+    [pseudo] => jcr972
+    [nom] => Rangon
+    [prenom] => Jean-Christophe
+    [dob] => 1974-07-17
+    [email] => jc.rangon@gmail.co
+    [photoact] => default.jpg
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du nom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du prénom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function isForbiddenEmail() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$ext = gmail</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">isforbidden? = FALSE</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de la date de naissance = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pwd = Silverfish@911jcr972</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">destruction de l'objet PDO = </span>
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. End of Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. Starting Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans include/init.inc.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Appel de ***************************** editprofile.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Dans getPDO() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Connexion!! return : PDO Object = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Retour dans ajax/chgpwd.php = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Objet PDO créé avec succes, $pdo = PDO Object
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$_SESSION['user'] = Array
+(
+    [id] => 1
+    [pseudo] => jcr972
+    [nom] => Rangon
+    [prenom] => Jean-Christophe
+    [email] => jc.rangon@gmail.co
+    [date_de_naissance] => 1974-07-17
+    [photo] => default.jpg
+    [status] => 1
+    [role] => 1
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">vérification des données entrantes $_GET & $_POST = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pas de données entrantes $_GET = Array
+(
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function cleanIncomingData() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Nettoyage des données entrantes $_POST = Array
+(
+    [pseudo] => jcr972
+    [nom] => Rangon
+    [prenom] => Jean-Christophe
+    [dob] => 1974-07-17
+    [email] => jc.rangon@gmail.com
+    [photoact] => default.jpg
+)
+</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de pseudo = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du nom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification du prénom = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">** Dans function isForbiddenEmail() = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">$ext = gmail</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">isforbidden? = FALSE</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de l'unicité de email = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">Verification de la date de naissance = </span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">pwd = Silverfish@911jcr972</span>
+<span style="color:#cec6c6">[</span><span style="color:#4045ed;">INFO</span><span style="color:#cec6c6">]    </span><span style="color:#cec6c6">destruction de l'objet PDO = </span>
+<span style="color:#cec6c6">[</span><span style="color:#75ef40;">DEBUG</span><span style="color:#cec6c6">]   </span><span style="color:#cec6c6"><b>.............. End of Log for .../C:\wamp\www\codiad\workspace\cwampwww\projet1\ajax\editprofile.php</b></span>

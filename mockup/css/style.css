@@ -1,0 +1,449 @@
+/* Fonts */
+@font-face{
+	font-family:"helvetica hand";
+	src:url('./fonts/HandVetica.ttf') format('truetype');
+}
+
+
+/* Semantics - common styles*/
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family:helvetica hand;
+	font-size: 100%;
+}
+
+
+header .jumbotron {
+	background: linear-gradient(to top right, rgba(100, 100, 100, 0.1), rgba(0, 50, 100, 0.9));
+	color: #fff;
+	margin-bottom: 0;
+	border-radius: 0;
+	padding:0!important;
+}
+
+header .container-fluid{
+	position:relative;
+}
+
+.filter-glass{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+}
+
+.userGreetings{
+	position:absolute;
+	bottom:0;
+	right:0;
+	font-size:0.7rem;
+	text-align:right;
+}
+
+.breadcrumb {
+	background: transparent;
+}
+
+.breadcrumb-item {
+	font-size: 0.7em;
+}
+
+
+h2{
+	text-shadow: 7px 5px 6px #eee;
+}
+
+h2 span.tableauDeBord{
+	color: tomato;
+	font-size:2.5rem;
+}
+
+h2 span.categorie{
+	color: orange;
+	font-size:2.5rem;
+}
+
+h2 span.compte{
+	color: forestgreen;
+	font-size:2.5rem;
+}
+
+
+h2 span.transactions{
+	color: maroon;
+	font-size:2.5rem;
+}
+
+h2 span.plus{
+	margin-left:3rem;
+}
+
+h2 span.plus a{
+	text-decoration:none;
+	color:inherit;
+}
+
+h2 span.plus a:hover{
+	text-decoration:none;
+	color:inherit;
+}
+
+
+footer {
+	font-size: 0.8rem;
+	margin-top:5rem;
+}
+
+footer a{
+	text-decoration:none;
+	color:inherit;
+	transition: 0.3s ease-in;
+}
+
+footer a:hover{
+	text-decoration:none;
+	color:tomato;
+	opacity:0.4;
+	font-size:2em;
+	
+}
+
+.alert{
+	font-size:0.9em;
+}
+
+
+
+
+
+/* Monitor */
+.link-to-monitor {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 0, 0, 0.4);
+	border: 1px solid blue;
+	border-radius: 8px;
+	z-index: 9999999;
+}
+
+.link-to-monitor a {
+	text-decoration: none;
+	color: blue;
+}
+
+
+
+
+
+/*  Login Form - connexion.php  */
+
+.login-container {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.login-form-1 {
+	padding: 5%;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+	text-align: center;
+	color: #333;
+}
+
+.login-container form {
+	padding: 10%;
+}
+
+.btnSubmit {
+	width: 50%;
+	border-radius: 1rem;
+	padding: 1.5%;
+	border: none;
+	cursor: pointer;
+}
+
+.login-form-1 .btnSubmit {
+	font-weight: 600;
+	color: #fff;
+	background-color: #0062cc;
+}
+
+.login-form-1 .ForgetPwd {
+	color: #0062cc;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.login-form-1 .NewClient {
+	color: #ef8300;
+	;
+	font-weight: 600;
+	text-decoration: none;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+
+/* page MAIN*/
+
+.advise-user-create-account{
+	min-height:30vh;
+	position:relative;
+	box-shadow:1px 8px 15px -2px rgba(0,0,0,.5);
+	padding-bottom:1rem;
+}
+
+.advise-user-create-account p{
+	position:relative;
+}
+
+.advise-user-create-account p:nth-child(2) a:hover {
+	background: rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+	color:lightblue;
+}
+
+.advise-user-create-account span {
+	position: absolute;
+	margin-top: 23px;
+	margin-left: -35px;
+	color: #09c;
+	background: rgba(0, 0, 0, .9);
+	padding: 15px;
+	border-radius: 3px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+	transform: scale(0) rotate(-12deg);
+	opacity:0;
+	transition:all 0.25s;
+}
+.advise-user-create-account span:after {
+content: "";
+  position: absolute;
+  top: -20%;
+  left: 5%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, .5) transparent;
+}
+
+.advise-user-create-account p:nth-child(2) a:hover ~ span {
+	transform: scale(1) rotate(0);
+	opacity:1;
+}
+
+
+
+
+/* Form styling */
+.form1Container{
+	margin:3rem 0;
+	padding:2rem 1rem;
+	text-align:left;
+}
+
+.formStyle1{
+	width:70%;
+	margin:0 auto;
+}
+
+.formStyle1 fieldset{
+	border:1px solid #3e619b;
+	border-radius:8px;
+	width:100%;
+	font-size:1.3em;
+	color:#3e619b;
+	padding:0;
+	background:rgba(62, 97, 155,0.2);
+	padding:1em 1em 1em 2em;
+}
+
+.formStyle1 fieldset legend{
+	font-weight:bolder;
+	padding:0;
+	border:1px solid #003e00;
+	border-radius:10px;
+	background:#4CAF50;
+	color:white;
+	letter-spacing: 1px;
+}
+
+.formStyle1 fieldset legend span{
+	display:block;
+	padding:10px;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+
+
+/** Input Group **/
+
+.formStyle1 .inputGroup{
+	width: 100%;  
+	position: relative;
+	padding-top: 1.5rem;
+	margin-bottom:1rem;
+}
+
+
+
+/** type TEXT **/
+
+.formStyle1 .textEffect1{
+	color: blue; 
+	width: 100%;
+	border:0;
+	border-bottom: 1px solid #999;
+	letter-spacing: 1px;
+	font-family:inherit;
+	font-size: 24px;
+	padding: 5px 14px;
+	transition: 1s;
+	background: transparent;
+}
+
+.formStyle1 .textEffect1:focus{
+	outline: none;
+	border-bottom:1px solid green;
+}
+
+.formStyle1 .textEffect1 ~ label{
+	position: absolute;
+    top: 0;
+    font-size: 1.3rem;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.2s ease-out;
+}
+
+.formStyle1 .textEffect1 ~ .requiredField{
+	position:absolute;
+	color:red;
+	top:1rem;
+	opacity:0;
+	transform: translateY(0);
+    transition: all 0.2s ease-out;
+
+}
+
+.formStyle1 .textEffect1:placeholder-shown + label {
+    opacity: 0;
+    transform: translateY(1rem);
+}
+
+.formStyle1 .textEffect1:placeholder-shown ~ .requiredField{
+	opacity: 1;
+    transform: translateY(1rem);
+}
+
+
+/* Page compte.php*/
+#accountList button[type=submit]{
+	padding:0 0.2rem;
+}
+
+.ovf{
+	overflow-x:auto;
+}
+
+
+
+
+/* page catégories.php*/
+#addcat{
+	display:none;
+	text-align:center;
+}
+
+
+
+
+
+/* PAGE AJOUT TRANSACTION */
+
+#transac input[id=amount]{
+    font-size:8rem;
+    line-height: 5rem;
+    min-height: 8rem;
+    background:#eee;
+    color:blueviolet;
+}
+
+#transac select{
+    background-color:#eee!important;
+    height: auto !important;
+    padding: .6rem .8rem !important;
+    border: 2px solid #ced4da !important;
+    transition: none !important;
+    font-size:2rem!important;
+    height:5rem!important;
+    color:blueviolet!important;
+}
+
+#transac textarea{
+    color:blue!important;
+    font-size:2rem!important;
+}
+
+#transac button[type=submit]{
+    display:block;
+    margin:0 auto;
+    width:80%;
+    color:blueviolet;
+    font-size:1.5rem;
+}
+
+#transac button[type=submit]:hover{
+    color:white!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  media Queries  */
+
+@media screen and (max-width: 578px) {
+	.navbar-brand {
+		font-size: 1rem;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.formStyle1{
+	width:100%;
+	margin:0;
+	}
+	section.container{
+		padding:0!important;
+		margin:0!important;
+		width:100;
+	}
+	.form1Container{
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+}
