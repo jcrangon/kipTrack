@@ -99,15 +99,15 @@ else{
 
 $smtp_conf=array(
 	"auth"=>"true", 
-	"host"=>"xxx.fr", 
-	"user"=>"jc.rangon@xxxx.fr", 
-	"userpwd"=>"xxxxx",
+	"host"=>"devnetx.hd.free.fr", 
+	"user"=>"jc.rangon@devnetx.hd.free.fr", 
+	"userpwd"=>"secteur5",
 	"secure"=>"",       
 	"port"=>"587",  
-	"noreply"=>"no-reply@xxxx.fr",
-	"noreplyMaster" => "WebMaster@xxx.fr",
-	"addresseTO" => "",
-	"nameTO"    => "",
+	"noreply"=>"no-reply@devnetx.hd.free.fr",
+	"noreplyMaster" => "WebMaster@devnetx.hd.free.fr",
+	"addresseTO" => "jc.rangon@gmail.com",
+	"nameTO"    => "Jean-Christophe Rangon",
 );
 
 //**************  MAIN CODE
